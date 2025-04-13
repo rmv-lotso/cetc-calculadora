@@ -172,7 +172,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="modalLabel">Bienvenido</h5>
+            <h5 class="modal-title" id="modalLabel">CETC</h5>
             <button
               type="button"
               class="btn-close"
@@ -181,7 +181,9 @@
             ></button>
           </div>
           <div class="modal-body">
-            ¡Este es un modal que aparece al cargar la página!
+            Revisar el tipo de cambio periódicamente.
+            <br />
+            Basar el tipo de cambio en compra.
           </div>
           <div class="modal-footer">
             <button
@@ -230,7 +232,6 @@
       }
 
       document.addEventListener("DOMContentLoaded", function () {
-        // Recuperar valores guardados
         document.getElementById("usdtBob").value =
           localStorage.getItem("usdtBob") || "";
         document.getElementById("usdtArs").value =
